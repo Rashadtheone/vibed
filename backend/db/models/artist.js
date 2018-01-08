@@ -2,6 +2,7 @@ const mongoose = require('mongoose')
 
 const ArtistSchema = new mongoose.Schema({
   name: String,
+  img: String,
   links: {
     soundcloud: String,
     youtube: String,
