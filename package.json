@@ -1,0 +1,29 @@
+{
+  "name": "vibed",
+  "version": "1.0.0",
+  "description": "Purpose -  You will be able to rate and store all of your favorite artist, and store Important links, even write up a blurb about them!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rashadtheone/vibed.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rashadtheone/vibed/issues"
+  },
+  "homepage": "https://github.com/Rashadtheone/vibed#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "method-override": "^2.3.10",
+    "mongoose": "^4.13.9",
+    "nodemon": "^1.14.9",
+    "postman": "^0.2.0"
+  }
+}
