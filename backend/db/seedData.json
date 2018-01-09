@@ -2,40 +2,22 @@
     {
     "name" : "Ski Mas the Slump God",
     "img" : "https://ih0.redbubble.net/image.352012569.0938/flat,800x800,075,f.jpg",
-    "musiclinks" : [
-                {
                     "soundcloud" : "https://soundcloud.com/rickybobby-slumpgod", 
                     "youtube" : "https://www.youtube.com/channel/UC08lkzw56nPfKmNwh9ZXx6Q" , 
                     "itunes" : "https://itunes.apple.com/ca/artist/ski-mask-the-slump-god/1174308445", 
                     "spotify" : "https://open.spotify.com/artist/2rhFzFmezpnW82MNqEKVry",
-                    "tidal" : "https://listen.tidal.com/artist/8269143"
-                }
-              ],
-    "sociallinks" : [
-                {
+                    "tidal" : "https://listen.tidal.com/artist/8269143",
                     "twitter" : "https://twitter.com/theslumpgod?lang=en",
                     "instagram" : "https://www.instagram.com/theslumpgod/?hl=en",
                     "snapchat" : "theslumpgod", 
-                    "facebook" : "https://www.facebook.com/OfficialSlumpGod/"
-                }
-               ],
-    "ratings" : [
-                {
+                    "facebook" : "https://www.facebook.com/OfficialSlumpGod/",
                     "flow" : 7,
                     "delivery" : 7,
                     "style" : 7, 
                     "visuals" : 7,
-                    "unique" : 7
-                }
-                ], 
-
-    "article" : "string", 
-    
-    "comments" : [
-                  {
-                      "commenter" : "his flow is insane!",
-                      "rating" : 7
-                  }
-                ]
+                    "unique" : 7,
+                    "article" : "he's a beasts", 
+                    "commenter" : "his flow is insane!",
+                    "rating" : 7
     }
 ]

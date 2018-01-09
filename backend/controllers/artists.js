@@ -10,26 +10,30 @@ router.get('/', (req, res) => {
     .find({})
     .then(artists => res.json(artists))
 })
+
 router.get('/', (req, res) => {
   Artist
     .findOne({name: req.params.name})
     .then(artists => res.json(artists))
 })
+
 router.post('/', (req, res) => {
+  console.log(req.body.Artist)
   Artist
     .create(req.body)
     .then(() => {
       Artist
-        .find()
+        .find({})
         .then(artists => res.json(artists))
     })
 })
+
 router.put('/:artistsId', (req, res) => {
   Artist
-    .findOneandUpdate({_id: req.params.artistsID}, req.body)
+    .findOneAndUpdate({_id: req.params.artistsId}, req.body)
     .then(() => {
       Artist
-    .find()
+    .find({})
     .then(artists => res.json(artists))
     })
 })
