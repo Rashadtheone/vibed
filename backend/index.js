@@ -6,8 +6,6 @@ const cors = require('cors')
 
 app.use(cors())
 
-const PORT = 7000
-
 app.use(parser.json())
 app.use(parser.urlencoded({extended: true}))
 
