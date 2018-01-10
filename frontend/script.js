@@ -58,7 +58,6 @@ function addArtist (artistData) {
     imageNode.addEventListener('click', () => {
       editModal(artist)
     })
-
     artists.appendChild(imageNode)
   })
 }
@@ -85,7 +84,7 @@ editSubmit.addEventListener('click', (e) => {
   const overall = document.getElementById('unique-edit').value
   const article = document.getElementById('article-edit').value
   console.log(artists._id)
-  
+
   axios.put(`http://localhost:7000/vibed/${currentlyEditing}`, {
     name,
     img,

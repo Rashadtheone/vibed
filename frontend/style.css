@@ -18,7 +18,18 @@ button {
     height: 400px;
     cursor: pointer;
 }
-
+.card {
+    width:400px;
+    height:400px;
+}
+.card-title {
+    padding: 10px;
+    margin-bottom: 15px;
+}
+.card>img {
+    width:400px;
+    height:400px;
+}
 a {
     margin-left:15px;
 }
