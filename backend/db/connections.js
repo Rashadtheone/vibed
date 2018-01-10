@@ -4,6 +4,7 @@ const mongoose = require('./models/artist')
 mongoose.Promise = Promise
 
 const mongoURI = 'mongodb://localhost/vibed'
+const MLAB_URL = 'mongodb://admin:admin@ds249737.mlab.com:49737/vibed'
 if (process.env.NODE_ENV === 'production') {
   mongoose.connect(process.env.MLAB_URL)
 } else {

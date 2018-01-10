@@ -19,5 +19,26 @@
                     "article" : "he's a beasts", 
                     "commenter" : "his flow is insane!",
                     "rating" : 7
-    }
+    },
+    {
+        "name" : "Kendrick Lamar",
+        "img" : "https://www.billboard.com/files/media/kendrick-lamar-mtv-vmas-2017-ax-billboard-1548.jpg",
+                        "soundcloud" : "https://soundcloud.com/kendrick-lamar-music", 
+                        "youtube" : "https://www.youtube.com/watch?v=tvTRZJ-4EyI" , 
+                        "itunes" : "https://itunes.apple.com/bh/artist/kendrick-lamar/368183298", 
+                        "spotify" : "https://open.spotify.com/artist/2YZyLoL8N0Wb9xBt1NhZWg",
+                        "tidal" : "https://listen.tidal.com/album/81893085",
+                        "twitter" : "https://twitter.com/kendricklamar?lang=en",
+                        "instagram" : "https://www.instagram.com/kendricklamar/?hl=en",
+                        "snapchat" : "KendrickLamar", 
+                        "facebook" : "https://www.facebook.com/kendricklamar/",
+                        "flow" : 7,
+                        "delivery" : 7,
+                        "style" : 7, 
+                        "visuals" : 7,
+                        "unique" : 7,
+                        "article" : "he's a beasts", 
+                        "commenter" : "his flow is insane!",
+                        "rating" : 7
+        }
 ]

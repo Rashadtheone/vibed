@@ -24,11 +24,29 @@ function viewModal (artistData) {
           <span class="card-title">${artist.name}</span>
         </div>
         <div class="card-content">
-          <p>I am a very simple card. I am good at containing small bits of information.
-          I am convenient because I require little markup to use effectively.</p>
+          <p>${artist.article}</p>
+          
+        </div>
+        <div class="card-ratings">
+        <h5>Delivery: ${artist.delivery}</h5>
+        <h5>Flow: ${artist.flow}</h5>
+        <h5>Style: ${artist.style}</h5> 
+        <h5>Overall: ${artist.unique}</h5> 
+        
+      </div>
+        <div class="card-action">
+        <h6>Music Links</h6>
+          <a href="${artist.soundcloud}">Soundcloud</a>
+          <a href="${artist.spotify}">Spotify</a>
+          <a href="${artist.itunes}">itunes</a>
+          <a href="${artist.youtube}">Youtube</a>
         </div>
         <div class="card-action">
-          <a href="#">This is a link</a>
+        <h6>Social Links</h6>
+          <a href="${artist.instagram}">IG</a>
+          <a href="${artist.twitter}">Twitter</a>
+          <a href="${artist.snapchat}">Snapchat</a>
+          <a href="${artist.facebook}">Facebook</a>
         </div>
       </div>
     </div>`
