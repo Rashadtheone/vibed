@@ -2,13 +2,14 @@ const express = require('express')
 const router = express.Router()
 
 const mongoose = require('../db/connections')
-
+// const frontEnd = require('../frontend/index.html')
 const Artist = mongoose.model('artist')
 
 router.get('/', (req, res) => {
   Artist
     .find({})
     .then(artists => res.json(artists))
+    // .then(homePage => res.render(frontEnd))
 })
 
 router.get('/', (req, res) => {
