@@ -1,4 +1,5 @@
 const artists = document.querySelector('.artists')
+
 const submit = document.getElementById('submit')
 const editSubmit = document.getElementById('submit-edit')
 const deleteButton = document.getElementById('delete')

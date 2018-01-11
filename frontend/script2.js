@@ -1,22 +1,20 @@
-const card = document.querySelector('.card')
+const card = document.querySelector('.artistCards')
+const cards = document.querySelector('.artistCard')
 const details = document.querySelector('.material-icons')
 const artistsContent = document.querySelector('.modal-content')
 
-const editSubmit = document.getElementById('submit-edit')
-const deleteButton = document.getElementById('delete')
-
-let currentlyEditing = ''
-
 function viewModal (artistData) {
-  artistsContent.innerHTML = ''
-  console.log(artistsContent.innerHTML)
+  // artistsContent.innerHTML = ''
+  // console.log(artistsContent.innerHTML)
   artistData.forEach(artist => {
     if (!artist) return
 
     const artistContentView = document.createElement('div')
-    artistContentView.classList.add('row')
+    artistContentView.classList.add('modal')
+    artistContentView.setAttribute('id', `${artist._id}`)
 
     artistContentView.innerHTML = `
+    <div class="modal-content">
     <div class="col s12 m7">
       <div class="card">
         <div class="card-image">
@@ -49,13 +47,11 @@ function viewModal (artistData) {
           <a href="${artist.facebook}">Facebook</a>
         </div>
       </div>
+    </div>
     </div>`
 
-    artistsContent.appendChild(artistContentView)
+    card.appendChild(artistContentView)
   })
-  currentlyEditing = artistsContent._id
-
-  console.log(currentlyEditing)
 }
 
 function addCard (artistData) {
@@ -65,15 +61,21 @@ function addCard (artistData) {
     if (!artist) return
 
     const artistCard = document.createElement('div')
-    artistCard.classList.add('card-image')
+    artistCard.classList.add('artistCard')
 
     artistCard.innerHTML = `
- <img class="artists" src="${artist.img}">
+    <div class="row">
+    <div class="col s12 m6">
+    <div class="card">
+ <img src="${artist.img}">
 <span class="card-title black-text">${artist.name}</span>
-    <a href="#cardDetails" class="btn-floating modal-trigger waves-effect waves-light red"><i class="material-icons" id="details">add</i></a>
+    <a href="#${artist._id}" class="btn-floating modal-trigger waves-effect waves-light red">
+    <i class="material-icons" id="details">add</i></a>
   </div>
   <div class="card-content">
     <p>${artist.article}</p>
+  </div>
+  </div>
   </div>`
     card.appendChild(artistCard)
   })

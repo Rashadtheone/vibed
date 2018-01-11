@@ -18,6 +18,17 @@ button {
     height: 400px;
     cursor: pointer;
 }
+.artistsCards {
+    display: grid;
+    grid-template-columns:repeat(31fr);
+    grid-gap:10px;
+}
+.artistCards {
+    background-color: black;
+    width:400px; 
+    height: 400px;
+    cursor: pointer;
+}
 .card {
     width:400px;
     height:400px;
@@ -32,4 +43,9 @@ button {
 }
 a {
     margin-left:15px;
+}
+.main-container {
+    display: flex;
+    flex-direction:row;
+    flex-flow: row;
 }
