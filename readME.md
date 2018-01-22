@@ -6,6 +6,7 @@ You will be able to rate and store all of your favorite artist, and store Import
 #Technologies - 
 Express
 Materialize
-Mongodb/Mongoose 
+Mongodb/Mongoose
+Axios
 
-functional - No 
+
